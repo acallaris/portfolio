@@ -1,0 +1,35 @@
+@font-face {
+  font-family: CascadiaCode;
+  src: url(/font/CascadiaCode.ttf);
+}
+
+@font-face {
+  font-family: CascadiaMono;
+  src: url(/font/CascadiaMono.ttf);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: CascadiaCode, sans-serif;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 200%;
+}
+
+.button-wrapper {
+  font-size: 90%;
+  font-family: CascadiaMono, sans-serif;
+}
+
+.button {
+  display: inline-block;
+}
