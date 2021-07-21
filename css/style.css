@@ -1,11 +1,11 @@
 @font-face {
   font-family: CascadiaCode;
-  src: url(/font/CascadiaCode.ttf);
+  src: url(font/CascadiaCode.ttf);
 }
 
 @font-face {
   font-family: CascadiaMono;
-  src: url(/font/CascadiaMono.ttf);
+  src: url(font/CascadiaMono.ttf);
 }
 
 body {
